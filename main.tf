@@ -3,5 +3,5 @@ resource "azurerm_storage_account" "example" {
   resource_group_name      = var.resourcegroup
   location                 = var.location
   account_tier             = var.storagetier
-  account_replication_type = var.redunancy
+  account_replication_type = var.storage_redunancy
 }
