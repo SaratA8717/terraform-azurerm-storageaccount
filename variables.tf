@@ -1,6 +1,6 @@
 variable "app" {
   type        = string
-  description = "Name of your application
+  description = "Name of your application"
 }
 
 variable "location" {
