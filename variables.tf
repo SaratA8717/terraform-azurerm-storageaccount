@@ -1,9 +1,19 @@
-variable "rgname" {
+variable "app" {
   type        = string
-  description = "The name of the Resource Group"
+  description = "Name of your application
 }
 
-variable "rglocation" {
+variable "location" {
+  type        = string
+  description = "The name of the Location to deploy resource"
+}
+
+variable "storagetier" {
+  type        = string
+  description = "Provide Storage Tier"
+}
+
+variable "storage_redunancy" {
   type        = string
   description = "The name of the Location "
 }
