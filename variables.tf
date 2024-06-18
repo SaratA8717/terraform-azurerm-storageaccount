@@ -17,3 +17,7 @@ variable "resourcegroup" {
   type        = string
   description = "The name of the RG "
 }
+variable "storagename" {
+  type        = string
+  description = "The name of the Storage Account "
+}
